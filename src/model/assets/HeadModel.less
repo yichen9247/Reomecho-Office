@@ -1,0 +1,75 @@
+
+div.head-container {
+    top: 0;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    overflow: hidden;
+    transition: height 0.3s;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #e3e8f7;
+    background: rgba(252, 252, 252, 0.6);
+
+    div.head-box {
+        height: 65px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        width: var(--application-width);
+
+        span.nav-title {
+            color: #343a40;
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 65px;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Liberation Sans", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, SimSun, "WenQuanYi Zen Hei Sharp", sans-serif!important;
+        }
+
+        div.link-box {
+            height: 100%;
+            margin-left: auto;
+
+            a.link-text {
+                color: #343a40;
+                line-height: 65px;
+                padding: 5px 10px;
+                font-size: 1.2rem;
+
+                &:hover {
+                    color: var(--dominColor);
+                }
+            }
+        }
+
+        button.more-btn {
+            width: 32px;
+            height: 32px;
+            border: none;
+            outline: none;
+            margin-left: auto;
+            background: transparent;
+        }
+    }
+
+    div.head-more {
+        width: 100%;
+
+        div.link-item {
+            width: 100%;
+            height: 45px;
+            padding: 0 5%;
+            display: flex;
+            align-items: center;
+
+            a.link-text {
+                color: #343a40;
+
+                &::before {
+                    content: '-';
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

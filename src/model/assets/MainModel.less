@@ -1,0 +1,106 @@
+
+div.main-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    div.main-box {
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        width: var(--application-width);
+
+        div.container {
+            width: 100%;
+            height: 60%;
+            display: flex;
+
+            div.left-introduce {
+                display: flex;
+                margin-right: 80px;
+                flex-direction: column;
+
+                h2.left-title {
+                    font-size: 3rem;
+                    color: #343a40;
+                    font-weight: 600;
+                    margin-bottom: 1.5rem;
+                }
+
+                p.left-desc {
+                    line-height: 2;
+                    color: #8a90a2;
+                    overflow: hidden;
+                    font-size: 1.125rem;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    text-overflow: ellipsis;
+                    -webkit-box-orient: vertical;
+                }
+
+                div.button-group {
+                    margin-top: auto;
+
+                    a.button-link {
+                        color: #ffffff;
+                        padding: 10px 20px;
+                        margin-right: 25px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+            img.screenhot {
+                height: 100%;
+                margin-left: auto;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    div.main-box.box-mobile {
+        height: auto;
+        margin-top: 40px;
+
+        div.container {
+            flex-direction: column;
+        
+            div.left-introduce {
+                width: 90%;
+                margin: 40px auto;
+
+                h2.left-title {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+
+                p.left-desc {
+                    font-size: 1rem;
+                    text-align: center;
+                }
+
+                div.button-group {
+                    width: 100%;
+                    margin-top: 40px;
+
+                    a.button-link {
+                        width: 100%;
+                        display: block;
+                        padding: 15px 0;
+                        font-size: 1rem;
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            img.screenhot {
+                width: 90%;
+                border-radius: 5px;
+                margin: 0 auto!important;
+                height: unset!important;
+            }
+        }
+    }
+}
