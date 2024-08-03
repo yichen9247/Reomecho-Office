@@ -16,18 +16,18 @@ export default {
             title: '下载',
             toast: false,
             target: '_blank',
-            href: 'https://github.com/yichen9247/release',
+            href: 'https://github.com/yichen9247/Reomecho/release',
         },{
             title: '仓库',
             toast: false,
             target: '_blank',
-            href: 'https://github.com/yichen9247',
+            href: 'https://github.com/yichen9247/Reomecho',
         },{
             title: '文档',
             toast: true,
             target: '_blank',
             toastText: '文档建设中',
-            href: 'https://github.com/yichen9247/wiki',
+            href: 'https://github.com/yichen9247/Reomecho/wiki',
         }]
     },
 
@@ -51,17 +51,17 @@ export default {
             title: '立即下载',
             target: '_blank',
             background: '#495057',
-            href: 'https://github.com/yichen9247/release',
+            href: 'https://github.com/yichen9247/Reomecho/release',
         },{
             title: '开源地址',
             target: '_blank',
             background: '#f0323c',
-            href: 'https://github.com/yichen9247',
+            href: 'https://github.com/yichen9247/Reomecho',
         },{
             title: '使用文档',
             target: '_blank',
             background: '#3cd278',
-            href: 'https://github.com/yichen9247/wiki',
+            href: 'https://github.com/yichen9247/Reomecho/wiki',
         }]
     },
 
